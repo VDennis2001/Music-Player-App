@@ -1,0 +1,263 @@
+body{
+    background-color: #0f192e;
+    width: 100%;
+}
+
+.logo img{
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.search{
+    position: relative;
+    left: 65%;
+    top: -10vh;
+}
+
+::placeholder{
+    color: white;
+}
+
+.search input{
+    background-color: #293d69;
+    height: 40px;
+    width: 20%;
+    border-radius: 7px;
+}
+
+/* whole page given as relative in position */
+
+.front_page{
+    position: relative;
+}
+
+/* Top container  */
+
+.Top_container{
+    display: inline-block;
+    width: 70%;
+}
+
+/* top 3 music suggestion  */
+
+.top_3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 50px;
+}
+
+.booster:hover{
+    opacity: 0.5;
+}
+
+.club:hover{
+    opacity: 0.5;
+}
+
+.romantic:hover{
+    opacity: 0.5;
+}
+
+/* Artist */
+
+.heading_webpage{
+    color: white;
+    position: relative;
+    left: 5%;
+    font-family: sans-serif;
+}
+
+.artist_name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 50px;
+    gap: 15px;
+    row-gap: 20px;
+}
+
+.artist_name img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Connecting to other pages  */
+
+.artist_name img:hover{
+    opacity: 0.2;
+}
+
+/* station box */
+
+.heading{
+    color: rgb(255, 123, 0);
+    position: relative;
+    top: 3vh;
+    left: 5vw;
+    font-family: 'Leckerli One', cursive;
+    font-size: 200%;
+}
+
+.station{
+    background-color: black;
+    height: 40%;
+    border-radius: 30%;
+}
+
+.Song_types{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.Song_types img{
+    height: 55%;
+    width: 65%;
+    margin-left: 10vw;
+    margin-top: 6vh;
+}
+
+/* Text inside image  */
+
+.travel_heading {
+    color: white;
+    position: absolute;
+    top: 72%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* .travel_image{
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+} */
+
+.workout_heading{
+    color: white;
+    position: absolute;
+    top: 72%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+/* .workout_image{
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+} */
+
+.love_heading{
+    color: white;
+    position: absolute;
+    top: 72%;
+    left: 41%; 
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+/* 
+.love_image{
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+} */
+
+/* ASIDE PART */
+
+aside h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    color: white;
+}
+aside{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-left: 5%;
+}
+
+.songs{
+    display: flex;
+    flex-direction: row;
+}
+ /* name of the song  */
+.songs p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10%;
+    font-size:xx-large;
+}
+
+/* button part in song list  */
+
+.song_list li{
+    background-color:black;
+    color: white;
+    height: 40px;
+    display: flex;
+    position: relative;
+    top: 5vh;
+}
+
+
+/* soothing english */
+
+.soothing_image img{
+    margin-left: 10%;
+    
+}
+
+.soothing_image img:hover{
+    opacity: 0.5;
+}
+
+/* bottom music player */
+
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 10%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   
+}
+
+.footer button:hover{
+    color: rgb(122, 122, 192);
+}
+
+
+.fa-step-forward:hover{
+    opacity: 0.5;
+}
+
+.fa-step-backward:hover{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
